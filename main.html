@@ -7,21 +7,24 @@
     <title>The Mind</title>
 </head>
 <body>
-   <main>
-       
-<div class="table">
-
-<div class="health">Élet</div>
-<div class="level">Kör</div>
-<div class=" cards playedCards">Kijátszott lapok</div>
-
-</div>
-
-
    
+   <main>
+      <div class=" npcCards"><span id="npcCardSpan">.</span></div>
 
-<!--<div class="  playerCards">A te lapjaid</div>
-<div class="  npcCards">A játékos lapjai</div>--> 
+<div class="table">
+<div class="health">Élet: <span id="healthSpan"></span></div>
+<div class="level">Szint: <span id="levelSpan"></span></div>
+<div class=" cards playedCards">playedCards</div>
+</div>
+<div class=" playerCards"> <span id="playerCardsSpan">.</span> </div>
+
    </main> 
+   <span id="message">.</span>
+   
+   <button onclick="cards ()" type="submit" >Start</button> 
+   <button onclick="usingTheCard ()" type="submit" >Lerak</button> 
+   <button onclick="passingTheCard ()" type="submit" >Passz</button> 
+   <script src="main.js"></script>
 </body>
+
 </html>
